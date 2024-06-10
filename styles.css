@@ -1,4 +1,15 @@
 body {
     font-family: 'Comic Sans MS', cursive, sans-serif;
-    color: green;
+}
+
+.subscribe {
+    color: rgb(229, 255, 0);
+}
+
+.bemvindo {
+    color: rgb(0, 145, 202);
+}
+
+.normal {
+    color: rgb(0, 255, 115);
 }
