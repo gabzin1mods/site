@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gabz</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const links = {
+                'abc': 'https://www.youtube.com/@gabzin1/'
+            };
+
+            const path = window.location.pathname.substring(1);
+            if (links[path]) {
+                window.location.href = links[path];
+            } else {
+                document.getElementById('message').innerText = "Eehh, didn't work ;(";
+            }
+        });
+    </script>
+</head>
+<body>
+    <p id="message">gabzChannel</p>
+</body>
+</html>
